@@ -1,0 +1,7 @@
+;Reglas para cerrar lo que viene de estas IPs
+;
+;Para usar, simplemente quitar los comentarios (;)
+; 
+; Regla n 1
+; Todo lo que viene de internet
+;0.0.0.0
