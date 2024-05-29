@@ -25,7 +25,7 @@
 ;++++++++++++++++ BLOQUE IP GENERAL PARA CORTAR TODO +++++++++++++
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; ACTIVAR SOLO EN CASO DE EMERGENCIA
-;   IP que BLOQUEA  Todo lo que SALE hacia  internet
+;  IP que BLOQUEA  Todo lo que SALE hacia  internet
 ;0.0.0.0
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;++++++++++++++++ BLOQUE IPs INDIVIDUALES ++++++++++++++++++++++++
