@@ -1,0 +1,33 @@
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;++++++++++++++++++++++ INSTRUCCIONES  +++++++++++++++++++++++++++
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; LISTA NEGRA DE IP/REDES SALIENTES
+;
+; Formato de configuración para el bloqueo de IPs de entrada
+;    ";" indica que lo siguiente es un comentario
+;    TODO lo que comience sin ";" aplicará como IP/red,
+;
+; Ejemplos de formatos aceptado
+;    192.168.20.10/32              ;indica una dirección IP
+;    192.168.20.0/24               ;indica la red
+;    192.168.20.40-192.168.20.50   ;indica el rango de IP
+;      
+; Modificacion del fichero:
+;  1- descarga fichero como TXT 
+;       (al ser TXT no de puede editar en linea)
+;  2- Editar según los formatos indicados antes 
+;  3- Subir fichero: 
+;    3.1 - En google drive, botón derecho sobre fichero, 
+;    3.2 - Seleccionar "Informacion de archivo"
+;    3.3 - Seleccionar "Gestionar Versiones"
+;    3.4 - Subir Nueva Version y seleccionar el fichero .txt editado.
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;++++++++++++++++ BLOQUE IP GENERAL PARA CORTAR TODO +++++++++++++
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ACTIVAR SOLO EN CASO DE EMERGENCIA
+;   IP que BLOQUEA  Todo lo que SALE hacia  internet
+;0.0.0.0
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;++++++++++++++++ BLOQUE IPs INDIVIDUALES ++++++++++++++++++++++++
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;IP/Redes especificas => Bloquea lo que viene de estas IPs:
