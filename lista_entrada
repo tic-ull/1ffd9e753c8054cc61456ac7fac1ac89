@@ -1,1 +1,13 @@
-79.116.163.74      ;Prueba Bloqueo Ip
+;+++++++++++++++++++++ LISTA IPs ENTRADA ++++++++++++++++++++++
+;
+; Ejemplos:
+;    192.168.20.10/32              ;indica una dirección IP
+;    192.168.20.0/24               ;indica la red
+;    192.168.20.40-192.168.20.50   ;indica el rango de IP
+;      
+;++++++++++++++++++ BLOQUE IP GENERAL PARA CORTAR TODO +++++++++++++++
+; ACTIVAR SOLO EN CASO DE EMERGENCIA
+;0.0.0.0
+;++++++++++++++++ BLOQUE IPs INDIVIDUALES ++++++++++++++++++++++++
+;IP/Redes especificas => Bloquea lo que viene de estas IPs:
+79.116.163.74 ;Prueba
